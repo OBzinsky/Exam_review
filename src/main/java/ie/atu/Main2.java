@@ -8,66 +8,44 @@ Scanner input = new Scanner(System.in);
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 public class Main {
-    public class Member{
-        private String memberid;
+    public class Student{
+        private String id;
         private String name;
-        private int age;
 
-        public Member (int age, String name,String memberid ) {
-            this.age = age;
+        public Student (String name,String id ) {
+            t
             this.name = name;
-            this.memberid = memberid;
+            this.id = id;
         }
 
-        public String getMemberid() {return memberid;}
-        public String getName() {return name;}
+        public String getId() { return id; }
+        public String getName() { return name;}
 
-        @java.lang.Override
-        public java.lang.String toString() {
-            return "Member{" +
-                    "memberid='" + memberid + '\'' +
-                    ", name='" + name + '\'' +
-                    ", age=" + age +
-                    ", members=" + members +
-                    ", member=" + member +
-                    ", strings=" + strings +
-                    '}';
-        }
+        @Override
+        public String toString() { return id + " - " + name; }
+    }
 
-        ArrayList<Member> members = new ArrayList<>();
-        members.add(new Member("1", "Dave"));
-        members.add(new Member("2", "Sarah"));
-        members.add(new Member("3", "Tom"));
 
-        for (Member member : members) {
-            System.out.println(member);
-        }
 
-        String searchId = "S102";
-        boolean found = false;
-        for (Studnet student : students) {
-            if (student.getId().equals(searchId)) {
-                System.out.println("Found: " + student);
-                found = true;
-                break;
+}
+    }
+    public class Main {
+        public static void main(String[] args) {
+            ArrayList<Student> students = new ArrayList<>();
+            students.add(new Student("S101", "Amy"));
+            students.add(new Student("S102", "Ben"));
+            students.add(new Student("S103", "Cara"));
+
+            String searchId = "S102";
+            boolean found = false;
+            for (Student student : students) {
+                System.out.println(student);
             }
         }
+    }
+
         if (!found) {
             System.out.println("Student not found.");
         }
-
-
-
-    public int getAge() {
-        return age;
-    }
-     displayDetails() {
-        return age;
-        return name;
-        return memberid;
-         System.out.println(name);
-    }
-    }
-
 
 }
