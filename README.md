@@ -4,33 +4,51 @@
 
 ### Task 1 — /40
 **My mark:**
- 
+10 marks
+0 marks
+0 marks
 
 
 **Why I awarded this mark:**
+I did declare the fields however I forgot how to make getter and setter functions for them, only half the objective is done.
 
+the next 2 objectives for task 1 I couldn't figure out at the time.
 
 ### Task 2 — /40
 **My mark:**
-
+3 marks
+0 marks 
+0 marks
+0 marks
 
 **Why I awarded this mark:**
-
+I only partly did the first objective and didn't do the rest as I got lost at that point
 
 ### Task 3 — /20
 **My mark:**
-
+0 marks
+0 marks
+0 marks
 
 **Why I awarded this mark:**
+not completed or attempted
 
 **Total self-assessed grade:** /100
+13/100
 
 
 ## 2. Corrections and Improvements
 
-Describe two or three important problems you identified
+Describe two or three important problems you identified:
+
+during my attempt I wrote my class and member declarations are  below my arraylist declarations, I think they should be the first things declared in the member class.
+
+
+
+
+
 in your original code. Explain what you changed and
-why it works now.
+why it works now:
 
 
 
@@ -39,11 +57,18 @@ why it works now.
 **What did you understand during the examination
 but struggle to implement?**
 
+
 **What was the most important thing you learned
 from correcting your code?**
+the most important thing I learned from correcting my code
 
 **What would you do differently in your next
 coding test?**
+First I would actually be there during the exam because this time I wasnt able to.
+
+Second thing I would do differently is correctly format my code so its not all over the place like it is in my attempt.
+
+
 
 ---
 
