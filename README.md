@@ -50,12 +50,26 @@ during my attempt I wrote my class and member declarations are  below my arrayli
 in your original code. Explain what you changed and
 why it works now:
 
+I removed the age method because it wasn't necessary, also changed member to student
+
+I did copy the answers but what I can do is explain the process:
+in task 1 name & id get declared > initialised > then returned to the user and the override tostring returns the values again but with in a formatted way, which now I know because of lab 7.
+
+task 2
+creates the the 3 students.. within an array list with the both string parameters & prints
+
+task 3
+
+search function with searches the array for S102 only, natural state is false but if it finds the student in the array it returns true
+also has an invalid ID return
 
 
 ## 3. Reflection
 
 **What did you understand during the examination
 but struggle to implement?**
+
+during my attempt I knew what getters and setters were but I forgot how to implement them
 
 
 **What was the most important thing you learned
